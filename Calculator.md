@@ -25,7 +25,7 @@ cal.title("Calculator")
 operator=""
 text_Input = StringVar()
 
-txtDisplay = Entry(cal, font=('arial', 20, 'bold'), textvariable = text_Input, bd = 30, insertwidth = 3, bg = "cyan", justify ='right').grid(columnspan=4)
+txtDisplay = Entry(cal, font=('arial', 20, 'bold'), textvariable = text_Input, bd = 30, insertwidth = 3, bg = "white", justify ='right').grid(columnspan=4)
 button7 = Button(cal, padx=16, bd=8, fg="black", font=("arial", 20, 'bold'), text="7", command = lambda:btnClick(7))
 button7.grid(row=1,column=0)
 

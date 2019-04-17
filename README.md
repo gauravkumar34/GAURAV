@@ -1,4 +1,4 @@
-#Gaurav
+#Calculator
 
 
 from tkinter import *
